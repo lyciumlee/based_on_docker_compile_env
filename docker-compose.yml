@@ -1,0 +1,11 @@
+version: '3'
+services:
+  mybuildenv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mybuildenv
+    restart: unless-stopped
+    tty: true
+    volumes:
+      - /home/lll/tmp:/home/lll

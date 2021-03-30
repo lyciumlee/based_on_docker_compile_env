@@ -9,3 +9,7 @@ services:
     tty: true
     volumes:
       - /home/lll/tmp:/home/lll
+    environment:
+      http_proxy: http://10.0.2.15:1080
+      https_proxy: http://10.0.2.15:1080
+

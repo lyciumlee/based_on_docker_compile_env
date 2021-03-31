@@ -15,7 +15,7 @@ run DEBIAN_FRONTEND=noninteractive \
     python3 python3-pip curl netcat htop iotop iftop man strace ltrace wget \
     manpages-posix manpages-posix-dev libgmp3-dev libmpfr-dev libmpc-dev \
     nmap zmap libssl-dev inetutils-ping dnsutils whois mtr net-tools iproute2 tzdata ruby \
-    ssh autoconf automake autopoint bison gettext gperf texinfo rsync \
+    ssh autoconf automake autopoint bison gettext gperf texinfo rsync ninja-build pkg-config \
     && apt-get source libc6-dev \
     && apt clean
 run useradd lll && \
